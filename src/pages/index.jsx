@@ -1,13 +1,13 @@
 import React from "react";
-
+import Sidebar from "@/components/Sidebar";
 export default function index() {
     return (
-        <div className="flex h-screen flex-col bg-red-500">
-            <div className="flex flex-1 p-2">
-                <aside className="w-full max-w-xs bg-orange-500">sidebar</aside>
-                <main className="h-full flex-1 bg-lime-500">main</main>
+        <div className="flex h-screen flex-col">
+            <div className="flex flex-1 overflow-y-auto p-2">
+                <Sidebar />
+                <main className="h-full flex-1 ">main</main>
             </div>
-            <footer className="bg-green-500">player</footer>
+            <footer className="h-[59px]">player</footer>
         </div>
     );
 }
