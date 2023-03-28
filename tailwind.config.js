@@ -6,9 +6,9 @@ module.exports = {
             colors: {
                 bg: "#000000",
                 "bg-dimmed": "#121212",
-                text: "#FFFFFF",
+                text: "#ffffff",
                 "text-dimmed": "#b3b3b3",
-                primary: "#1db954",
+                primary: "#41b954",
             },
         },
     },
