@@ -1,7 +1,7 @@
-import { redirectURL } from "@/config";
-import "@/styles/globals.css";
+import { redirectURL } from "../config";
+import "../styles/globals.css";
 import SpotifyWebApi from "spotify-web-api-node";
-import { getAccessTokenFromUrl } from "@/utils/getAccessTokenFromUrl";
+import { getAccessTokenFromUrl } from "../utils/getAccessTokenFromUrl";
 import { useRouter } from "next/router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 

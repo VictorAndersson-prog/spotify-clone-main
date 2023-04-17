@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Home } from "react-feather";
-import { spotifyApi } from "@/pages/_app";
+import { spotifyApi } from "../pages/_app";
 import { useQuery } from "@tanstack/react-query";
 import { useRouter } from "next/router";
 

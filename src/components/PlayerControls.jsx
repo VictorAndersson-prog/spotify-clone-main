@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Play, Pause, SkipBack, SkipForward } from "react-feather";
-import { formatTime } from "@/utils/formatTime";
-import { spotifyApi } from "@/pages/_app";
+import { formatTime } from "../utils/formatTime";
+import { spotifyApi } from "../pages/_app";
 
 export default function PlayerControls({ player, isPaused, position, track }) {
     const [currentProgress, setCurrentProgress] = useState(position);

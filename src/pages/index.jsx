@@ -1,4 +1,4 @@
-import Layout from "@/components/Layout";
+import Layout from "../components/Layout";
 import { useQuery } from "@tanstack/react-query";
 import Link from "next/link";
 import { spotifyApi } from "./_app";
